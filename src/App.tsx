@@ -59,7 +59,7 @@ function useMobileMenu() {
 }
 
 /* ───────────────────────── Constants ───────────────────────── */
-const CHECKOUT_URL = '#checkout'; // TODO: substituir pela URL real de checkout
+const CHECKOUT_URL = 'https://pay.hotmart.com/A100995866R';
 
 const NAV_LINKS = [
   { label: 'Método', href: '#evolution' },
