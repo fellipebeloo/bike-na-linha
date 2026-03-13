@@ -618,17 +618,7 @@ export default function App() {
               </h2>
             </FadeIn>
             <FadeIn delay="delay-100">
-              <div className="max-w-4xl mx-auto mb-8">
-                <div className="bg-primary text-black p-6 rounded-2xl shadow-[0_10px_30px_rgba(212,255,0,0.2)] flex items-center gap-4 border-2 border-white/20">
-                  <AlertCircle className="w-10 h-10 shrink-0" />
-                  <p className="font-black uppercase italic text-lg leading-tight text-left">
-                    Aproveite que em breve o valor será ajustado, e adquirindo agora você terá acesso vitalício incluindo os novos módulos avançados que estão sendo adicionados na plataforma
-                  </p>
-                </div>
-              </div>
-            </FadeIn>
-            <FadeIn delay="delay-200">
-              <div className="bg-surface-dark border-2 border-primary/20 rounded-[2.5rem] p-8 md:p-20 shadow-[0_0_50px_rgba(212,255,0,0.1)] relative overflow-hidden">
+              <div className="bg-surface-dark border-2 border-primary/20 rounded-[2.5rem] p-8 md:p-20 shadow-[0_0_50px_rgba(212,255,0,0.1)] relative overflow-hidden mb-8">
                 <div className="absolute top-0 right-0 bg-primary text-black px-6 py-1.5 uppercase font-black text-xs italic tracking-widest">
                   Oferta por tempo limitado
                 </div>
@@ -664,6 +654,16 @@ export default function App() {
                   </div>
                   <p className="text-slate-400 uppercase font-bold tracking-widest flex items-center gap-2 text-base">
                     <Lock className="w-4 h-4" /> Pagamento 100% Seguro
+                  </p>
+                </div>
+              </div>
+            </FadeIn>
+            <FadeIn delay="delay-200">
+              <div className="max-w-4xl mx-auto">
+                <div className="bg-primary text-black p-6 rounded-2xl shadow-[0_10px_30px_rgba(212,255,0,0.2)] flex items-center gap-4 border-2 border-white/20">
+                  <AlertCircle className="w-10 h-10 shrink-0" />
+                  <p className="font-black uppercase italic text-lg leading-tight text-left">
+                    Aproveite que em breve o valor será ajustado, e adquirindo agora você terá acesso vitalício incluindo os novos módulos avançados que estão sendo adicionados na plataforma
                   </p>
                 </div>
               </div>
